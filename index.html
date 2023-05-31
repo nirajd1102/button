@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>buttons</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Do you love me</h1>
+        <div class="buttonGroup">
+         <button onclick="showPopup()" class="button--yes">Yes</button>
+         <button class="button--no">No</button>
+        </div>
+    </div>
+
+<script>
+    const b = document. querySelector('button.button--no')
+    b.addEventListener ("mouseover", moveHover)
+    function moveHover(){
+        const i=Math.floor(Math.random()*500)+1;
+        const j=Math.floor(Math.random()*500)+1;
+
+        b.style.right=i+"px"
+        b.style.top=j+"px"
+       }
+    function showPopup() {
+   alert("congratulations baby");
+    }
+    </script>
+</body>
+</html>

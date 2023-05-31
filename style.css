@@ -1,0 +1,52 @@
+html
+{
+   background-color: white;
+
+}
+
+h1{
+    display: block;
+    position: absolute;
+    color: blue;
+    
+}
+body
+{
+   align-items: center;
+
+}
+.app
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+
+.buttonGroup
+{
+    margin-top: 150px;
+}
+
+button
+{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 10px 30px;
+    background-color: yellow;
+    border-box:2px black;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+.button--no
+{
+right: 50%;
+
+
+}
